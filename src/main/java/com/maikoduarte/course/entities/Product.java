@@ -28,7 +28,7 @@ public class Product implements Serializable {
 
 
   @Transient
-  private Set<Category> categories = new HashSet<>();
+  private final Set<Category> categories = new HashSet<>();
 
   public Product() {
 
